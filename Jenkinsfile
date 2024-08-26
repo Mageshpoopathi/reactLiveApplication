@@ -3,14 +3,14 @@ pipeline {
     environment {
         DOCKER_IMAGE = "reactapplication:latest"
         CONTAINER_NAME = "reactcontainer"
-        GIT_REPO_URL = 'https://github.com/Mageshpoopathi/React.git'
+        GIT_REPO_URL = 'https://github.com/Mageshpoopathi/reactLiveApplication.git'
         APP_PORT = '3000'
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: "${env.GIT_REPO_URL}"
+                git branch: 'magesh', url: "${env.GIT_REPO_URL}"
             }
         }
  
