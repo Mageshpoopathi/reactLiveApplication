@@ -1,6 +1,7 @@
 
 import './App.css';
-import Registrationpage from './component/Registrationpage.jsx';
+import Registrationpage from './component/Regsitrationpage';
+
 
 function App() {
   return (
